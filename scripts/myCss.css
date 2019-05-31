@@ -1,3 +1,31 @@
 html{
 	scroll-behavior: smooth;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+
+html, body{
+	padding:0;
+	margin:0;
+}
+
+.cd-section {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+  
+.cd-section--bg-fixed {
+	min-height: 100vh;
+	background-attachment: fixed;
+}
+  
+.cd-section:nth-child(1) {
+	background-image: url("../images/xubuntu.jpg");
+}
+
+#intro{
+	text-align: center;	
+	color:rgb(204, 223, 255);
+	padding:25vh;
 }
