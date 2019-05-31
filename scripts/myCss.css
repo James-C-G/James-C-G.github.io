@@ -9,6 +9,39 @@ html, body{
 	margin:0;
 }
 
+a{
+	text-decoration: none;
+}
+
+footer{
+	padding:1em;
+}
+
+.button{
+	color: rgb(204, 223, 255);
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 8%;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold; 
+    transition: 0.7s;
+}
+
+.button:hover{
+	color: black;
+    background-color: rgb(145, 196, 255);
+}
+
+.main{
+	padding:1em;
+}
+
+.textBloc{
+	padding-left:1em;
+}
+
 .cd-section {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -27,5 +60,10 @@ html, body{
 #intro{
 	text-align: center;	
 	color:rgb(204, 223, 255);
-	padding:25vh;
+	padding-top:22vh;
 }
+
+#introButton{
+	padding:20vh;
+}
+
